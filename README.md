@@ -16,15 +16,6 @@ Building public research on cointegration, factors, volatility, execution costs,
 
 </div>
 
----
-
-### About
-
-I work in Python on research-style backtests and ML evaluation. The focus is **method over marketing**: costs, out-of-sample / walk-forward splits, and documenting when a hypothesis fails.
-
-**Stack:** `pandas` · `numpy` · `scipy` · `statsmodels` · `scikit-learn` · `PyTorch` (when needed)
-
----
 
 ### Featured work
 
@@ -41,16 +32,6 @@ I work in Python on research-style backtests and ML evaluation. The focus is **m
 | Risk | [risk-dashboard](https://github.com/Mavarun/risk-dashboard) | Sharpe, Sortino, drawdown, rolling beta |
 | Lab notes | [research-journal](https://github.com/Mavarun/research-journal) | Hypothesis → result → why it failed |
 
----
-
-### How I work
-
-- Small, complete slices with tests and a runnable script  
-- Report **in-sample and out-of-sample** metrics  
-- Prefer public or clearly synthetic data  
-- No empty commits or contribution-graph padding
-
----
 
 ### Connect
 
