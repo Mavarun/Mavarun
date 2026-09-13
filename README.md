@@ -19,27 +19,37 @@ Bengaluru, India
 
 ### About
 
-I build **practical, production AI** — agents and real-time data systems that have to work on messy live inputs, not demos.
+I build **practical, production AI** — agents and live-data systems that have to refuse unsafe answers, not just look smart in a demo.
 
 Currently an **AI Solutions Analyst at [Sedna Consulting Group](https://www.linkedin.com/company/sedna-consulting-group-inc)**, focused on applied AI for the **U.S. public sector** (live data pipelines, operator-facing workflows). I also serve as **IEEE Student Branch Chair at Christ University** for 2025–26.
 
-Open to AI/ML, automation, and applied systems roles — collaboration welcome.
+Open to AI engineer / applied AI / agent systems roles.
+
+---
+
+### Flagship (unique)
+
+**[freshness-gated-ops-copilot](https://github.com/Mavarun/freshness-gated-ops-copilot)** — an ops knowledge agent that **refuses to answer** when citations fail a **freshness SLA** or a grounding check. Freshness is a first-class gate (not a README footnote): stale runbooks cannot launder a high retrieval rank into an answer.
+
+- Hybrid retrieval → freshness policy → refuse / extractive answer → JSONL traces
+- Golden-set evals: decision accuracy, refusal precision/recall, grounding rate
+- Offline & reproducible (no paid API required for CI)
 
 ---
 
 ### What I work on
 
-- **Production AI agents** — multi-step workflows with tool use, grounded outputs, and reliable handoff (LangGraph · FastAPI)
-- **Real-time / live data** — streams and operational backends (PostgreSQL · Redis · Docker)
-- **Computer vision** — YOLOv8-style detection for civic CCTV and medical imaging (OpenCV · FastAPI serving)
-- **Applied ML** — leakage-aware evaluation, calibration, and classical + neural baselines
+- **Production AI agents** — tool use, grounded outputs, refusal paths, reliable handoff
+- **Live / operational data** — freshness, streams, and systems that degrade honestly when sources age
+- **Evals over vibes** — golden sets, calibration, leakage-aware CV
+- **Computer vision** — detection pipelines for field systems (OpenCV · FastAPI)
 
 ---
 
 ### Experience
 
 **AI Analyst — Sedna Consulting Group** · *Apr 2025 – Present*  
-Practical AI solutions for U.S. public-sector use cases: production agents on live operational data, real-time dashboards, and CV pipelines for field systems.
+Practical AI for U.S. public-sector use cases: production agents on live operational data, real-time dashboards, and CV pipelines for field systems.
 
 **Student Branch Chair — IEEE (Christ University)** · *2025 – 2026*  
 Leading the student branch: community, events, and technical programs on campus.
@@ -55,21 +65,20 @@ Electrical & Electronics Engineering with an AI minor.
 
 ### Tech
 
-`Python` · `LangGraph` · `FastAPI` · `PostgreSQL` · `Redis` · `Docker` · `YOLOv8` · `OpenCV` · `scikit-learn` · `PyTorch` · `SQL` · `JavaScript` · `HTML/CSS` · `Java`
+`Python` · `LangGraph` · `FastAPI` · `PostgreSQL` · `Redis` · `Docker` · `YOLOv8` · `OpenCV` · `scikit-learn` · `PyTorch` · `SQL` · `JavaScript`
 
 ---
 
 ### Selected projects
 
-| Project | Focus |
+| Project | Why it matters |
 | --- | --- |
-| [tabular-ml-pipeline](https://github.com/Mavarun/tabular-ml-pipeline) | Leakage-safe GroupKFold, calibration, reliability diagrams |
-| [nlp-text-classifier](https://github.com/Mavarun/nlp-text-classifier) | Classical NLP baseline vs small Transformer, error analysis |
-| [time-series-purged-cv](https://github.com/Mavarun/time-series-purged-cv) | Purged / embargoed CV for time-series ML |
-| [anomaly-detection-lite](https://github.com/Mavarun/anomaly-detection-lite) | IsolationForest / One-Class methods, precision@k |
-| [model-eval-calibration](https://github.com/Mavarun/model-eval-calibration) | Brier, ECE, reliability beyond accuracy |
-| [python-django-login](https://github.com/Mavarun/python-django-login) | Secure auth & role-based profiles (Django) |
-| [ai-maturity-assessment](https://github.com/Mavarun/ai-maturity-assessment) | AI maturity assessment tooling |
+| **[freshness-gated-ops-copilot](https://github.com/Mavarun/freshness-gated-ops-copilot)** | **Flagship** — refuse when evidence is stale or ungrounded |
+| [model-eval-calibration](https://github.com/Mavarun/model-eval-calibration) | Nested CV + adaptive ECE (honest calibration) |
+| [nlp-text-classifier](https://github.com/Mavarun/nlp-text-classifier) | Classical vs MiniLM, error analysis |
+| [time-series-purged-cv](https://github.com/Mavarun/time-series-purged-cv) | Purged / embargoed CV for leakage |
+| [tabular-ml-pipeline](https://github.com/Mavarun/tabular-ml-pipeline) | GroupKFold + reliability diagrams |
+| [anomaly-detection-lite](https://github.com/Mavarun/anomaly-detection-lite) | IsolationForest / One-Class, precision@k |
 
 Also contributing upstream when I can (e.g. docs work on [Polars](https://github.com/pola-rs/polars)).
 
