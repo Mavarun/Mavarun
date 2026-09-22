@@ -19,7 +19,7 @@ Bengaluru, India
 
 ### About
 
-I build **practical, production AI** — agents and live-data systems that have to refuse unsafe answers, not just look smart in a demo.
+I build **practical, production AI**  agents and live-data systems that have to refuse unsafe answers, not just look smart in a demo.
 
 Currently an **AI Solutions Analyst at [Sedna Consulting Group](https://www.linkedin.com/company/sedna-consulting-group-inc)**, focused on applied AI for the **U.S. public sector** (live data pipelines, operator-facing workflows). I also serve as **IEEE Student Branch Chair at Christ University** for 2025–26.
 
@@ -29,7 +29,7 @@ Open to AI engineer / applied AI / agent systems roles.
 
 ### Flagship (unique)
 
-**[freshness-gated-ops-copilot](https://github.com/Mavarun/freshness-gated-ops-copilot)** — an ops knowledge agent that **refuses to answer** when citations fail a **freshness SLA** or a grounding check. Freshness is a first-class gate (not a README footnote): stale runbooks cannot launder a high retrieval rank into an answer.
+**[freshness-gated-ops-copilot](https://github.com/Mavarun/freshness-gated-ops-copilot)** an ops knowledge agent that **refuses to answer** when citations fail a **freshness SLA** or a grounding check. Freshness is a first-class gate (not a README footnote): stale runbooks cannot launder a high retrieval rank into an answer.
 
 - Hybrid retrieval → freshness policy → refuse / extractive answer → JSONL traces
 - Golden-set evals: decision accuracy, refusal precision/recall, grounding rate
