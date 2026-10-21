@@ -3,7 +3,7 @@
 # M. Varun
 
 **AI Solutions Analyst · Sedna Consulting Group**  
-IEEE Student Branch Chair · Christ University (2025–26)
+IEEE Student Branch Chair · Christ University (2022–26)
 
 Bengaluru, India
 
